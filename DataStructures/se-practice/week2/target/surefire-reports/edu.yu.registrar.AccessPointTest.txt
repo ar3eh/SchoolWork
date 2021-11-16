@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: edu.yu.registrar.AccessPointTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.056 s <<< FAILURE! - in edu.yu.registrar.AccessPointTest
+edu.yu.registrar.AccessPointTest.courseOfferingsSearchVagueTest  Time elapsed: 0.028 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <1> but was: <0>
+	at edu.yu.registrar.AccessPointTest.courseOfferingsSearchVagueTest(AccessPointTest.java:96)
+
+edu.yu.registrar.AccessPointTest.DepartmentSearchTest  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2> but was: <0>
+	at edu.yu.registrar.AccessPointTest.DepartmentSearchTest(AccessPointTest.java:132)
+
+edu.yu.registrar.AccessPointTest.MajorAndSchoolSearchTest  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <1> but was: <0>
+	at edu.yu.registrar.AccessPointTest.MajorAndSchoolSearchTest(AccessPointTest.java:172)
+
+edu.yu.registrar.AccessPointTest.gettingCourseOfferings  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <3> but was: <0>
+	at edu.yu.registrar.AccessPointTest.gettingCourseOfferings(AccessPointTest.java:34)
+

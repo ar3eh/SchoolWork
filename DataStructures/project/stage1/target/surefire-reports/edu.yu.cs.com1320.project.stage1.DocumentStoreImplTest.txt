@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: edu.yu.cs.com1320.project.stage1.DocumentStoreImplTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in edu.yu.cs.com1320.project.stage1.DocumentStoreImplTest
+testPutNewVersionOfDocumentTxt  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: should return hashcode of old text ==> expected: <true> but was: <false>
+	at edu.yu.cs.com1320.project.stage1.DocumentStoreImplTest.testPutNewVersionOfDocumentTxt(DocumentStoreImplTest.java:89)
+
+testPutDocumentWithNullArguments  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: null format should've thrown IllegalArgumentException
+	at edu.yu.cs.com1320.project.stage1.DocumentStoreImplTest.testPutDocumentWithNullArguments(DocumentStoreImplTest.java:58)
+

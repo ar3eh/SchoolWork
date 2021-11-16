@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: edu.yu.cs.com1320.project.stage1.DocumentImplTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.006 s <<< FAILURE! - in edu.yu.cs.com1320.project.stage1.DocumentImplTest
+testGetTextDocumentTextHashCode  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <-1643885098> but was: <1609539434>
+	at edu.yu.cs.com1320.project.stage1.DocumentImplTest.testGetTextDocumentTextHashCode(DocumentImplTest.java:45)
+
+testGetBinaryDocumentTextHashCode  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <-667769682> but was: <574077728>
+	at edu.yu.cs.com1320.project.stage1.DocumentImplTest.testGetBinaryDocumentTextHashCode(DocumentImplTest.java:52)
+
